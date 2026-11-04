@@ -2,7 +2,7 @@ public class Inventario {
     public static int calcularSubtotal(int precio, int cantidad) {
         validarParametros(precio, cantidad);
 
-        long resultado = (long) precio * cantidad;
+        long resultado = (long) precio + cantidad;
         if (resultado > Integer.MAX_VALUE) {
             throw new IllegalArgumentException("El subtotal excede el rango de int.");
         }
