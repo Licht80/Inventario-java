@@ -1,7 +1,7 @@
 public class Resta {
 
     public static int restar(int minuendo, int sustraendo) {
-        return minuendo + sustraendo;
+        return minuendo - sustraendo;
     }
 
     public static void main(String[] args) {
